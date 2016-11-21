@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Straight to the Point Archery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/stylesheet.css"/>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="archery logo" width="200">
+      <img src="images/archery.jpg" alt="archery arrows">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Lessons + Schedule</a></li>
+          <li><a href="#">Instructors</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <section> 
+        <h2>Welcome to Straight to the Point Archery</h2>
+        <p></p>
+        <p></p>
+      </section>
+      <div class="button">
+        <a href="#">See Lessons &amp; Schedule</a>
+      </div>
+      <div class="button">
+        <a href="#">Meet our Instructors</a>
+      </div>
+      <section class="contact">
+        <p>Contact Information</p>
+        <p></p>
+      </section>
+      <section class="contact">
+        <p>Map</p>
+        <a href="#"></a>
+      </section>
+      
+    </article>
+  </body>

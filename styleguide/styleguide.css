@@ -1,45 +1,47 @@
 header {
   background-color: black;
-  background-image:url(../images/archery_edited-1.jpg);
+  background-image:url(../images/archery.jpg);
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
-  margin: 0;
-  }
+  margin: 0;}
 .logo {
   float: left;}
 header h1 {
   float: right;
   position: relative;
-  margin: 0 1rem 5rem 0;}
+  right: 1rem;
+  color: white;
+  font-size: 2.5rem;}
 nav a {
   color: white;
   position: relative;
   top: 15rem;
-  left: 30rem;
-  right: 0;
   font-family: 'Vidaloka', serif;
   text-decoration: none;
   font-size: 20px;
   padding: 1rem;}
 nav ul {
   list-style: none;
-  margin: 1rem;
-  padding: 1rem;
-  position: relative;}
+  padding: 1rem 0 0 0;
+  position: relative;
+  text-align: right;}
 nav li {
   display: inline-block;
   color: white;}
 body {
-  background-color: #FFE0CF;
-}
+  background-color: #B3BEFF;
+  background-color: floralwhite;
+  color: #545A7F;}
 h1,h2 {
   font-family: 'Vidaloka', serif;
-  clear: both;}
+  clear: both;
+  color: #32364C;}
 p {
   font-family: 'Sahitya', serif;
   font-size: 1rem;}
+.button-block {
+  padding: 1rem;}
 .button {
   padding: 5px 10px;
   border-radius: 8px;

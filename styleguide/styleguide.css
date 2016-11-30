@@ -1,0 +1,99 @@
+header {
+  background-color: black;
+  background-image:url(../images/archery_edited-1.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin: 0;
+  }
+.logo {
+  float: left;}
+header h1 {
+  float: right;
+  position: relative;
+  margin: 0 1rem 5rem 0;}
+nav a {
+  color: white;
+  position: relative;
+  top: 15rem;
+  left: 30rem;
+  right: 0;
+  font-family: 'Vidaloka', serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1rem;}
+nav ul {
+  list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  position: relative;}
+nav li {
+  display: inline-block;
+  color: white;}
+body {
+  background-color: #FFE0CF;
+}
+h1,h2 {
+  font-family: 'Vidaloka', serif;
+  clear: both;}
+p {
+  font-family: 'Sahitya', serif;
+  font-size: 1rem;}
+.button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: 'Sahitya', serif;
+  border: none;
+  margin: 0.5rem;
+  width: 10rem;}
+.blue .button {
+  border-top: 1px solid #ffffff;
+  background: #d5d4ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3ea6de), to(#d5d4ff));
+  background: -webkit-linear-gradient(top, #3ea6de, #d5d4ff);
+  background: -moz-linear-gradient(top, #3ea6de, #d5d4ff);
+  background: -ms-linear-gradient(top, #3ea6de, #d5d4ff);
+  background: -o-linear-gradient(top, #3ea6de, #d5d4ff);}
+.blue .button:hover {
+  border-top-color: #a3baff;
+  background: #a3baff;
+  color: #ffffff;}
+.blue .button:active {
+  border-top-color: #263580;
+  background: #263580;}
+.red .button {
+  border-top: 1px solid #ffffff;
+  background: #ff9eb6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c9453b), to(#ff9eb6));
+  background: -webkit-linear-gradient(top, #c9453b, #ff9eb6);
+  background: -moz-linear-gradient(top, #c9453b, #ff9eb6);
+  background: -ms-linear-gradient(top, #c9453b, #ff9eb6);
+  background: -o-linear-gradient(top, #c9453b, #ff9eb6);}
+.red .button:hover {
+  border-top-color: #ffb0b0;
+  background: #ffb0b0;
+  color: #ffffff;}
+.red .button:active {
+  border-top-color: #822727;
+  background: #822727;}
+.yellow .button {
+  border-top: 1px solid #ffffff;
+  background: #ffef87;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7de00), to(#ffef87));
+  background: -webkit-linear-gradient(top, #f7de00, #ffef87);
+  background: -moz-linear-gradient(top, #f7de00, #ffef87);
+  background: -ms-linear-gradient(top, #f7de00, #ffef87);
+  background: -o-linear-gradient(top, #f7de00, #ffef87);}
+.yellow .button:hover {
+  border-top-color: #ffb957;
+  background: #ffb957;
+  color: #ffffff;}
+.yellow .button:active {
+  border-top-color: #f79823;
+  background: #f79823;}

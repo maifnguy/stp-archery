@@ -23,3 +23,40 @@ nav a {
   color: #297F7B;}
 
 
+/* Section */
+.section {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 23px;}
+.section img, .section iframe, .section p, .section ul {
+  margin: 0 1rem 1rem 1rem;}
+
+
+/* Button */
+.section button {
+  margin: 1rem 10vmax 1rem 10vmax;}
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
+  margin: 0.5rem;
+  width: 10rem;
+  border-top: 1px solid #ffffff;
+  background: #e2bafa;
+  width: 60%;
+  color: rgba(0,0,0,0.6);
+  border-top-color: #5B327F;}
+.button:hover {
+  background: #1BBBB3;
+  color: #ffffff;
+  border-top-color: #297F7B;}
+
+/* Footer */
+footer ul {
+  list-style: none;
+  line-height: 2rem;}

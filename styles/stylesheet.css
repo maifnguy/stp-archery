@@ -10,6 +10,10 @@ nav a {
   background-color: #cccccc;
   padding: 1.5rem;
   color: white;}
+nav a:hover {
+  background: #1BBBB3;
+  color: #ffffff;
+  }
 
 
 /* Headings */
@@ -20,7 +24,7 @@ nav a {
   color: #297F7B;}
 .section h2, .section h3, .section h4, .section h5, .section h6  {
   margin: 0 1rem 1rem 1rem;
-  color: #297F7B;}
+  color: #1BBBB3;}
 
 
 /* Section */
@@ -46,17 +50,24 @@ nav a {
   border: none;
   margin: 0.5rem;
   width: 10rem;
-  border-top: 1px solid #ffffff;
-  background: #e2bafa;
+  background: #cccccc;
   width: 60%;
-  color: rgba(0,0,0,0.6);
   border-top-color: #5B327F;}
 .button:hover {
   background: #1BBBB3;
   color: #ffffff;
-  border-top-color: #297F7B;}
+  }
 
 /* Footer */
 footer ul {
   list-style: none;
   line-height: 2rem;}
+footer .section:first-child { 
+  background: linear-gradient(white, #B68CFF);
+  padding: 0}
+footer .section:last-child {
+  background-color: ghostwhite;}
+footer .section ul, footer .section a, footer .section p {
+  color: #8E8E8E;}
+
+

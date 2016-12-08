@@ -1,3 +1,6 @@
+body .group {
+  font-size: 18px;}
+
 /* Header */
 nav ul {
   list-style: none;
@@ -12,8 +15,7 @@ nav a {
   color: white;}
 nav a:hover {
   background: #1BBBB3;
-  color: #ffffff;
-  }
+  color: #ffffff;}
 
 
 /* Headings */
@@ -22,15 +24,30 @@ nav a:hover {
   margin: 0 1rem 0 1rem;
   font-family: 'Bitter', serif;
   color: #297F7B;}
-.section h2, .section h3, .section h4, .section h5, .section h6  {
+.section h2 {
+  margin: 0 1rem 0 1rem;
+  font-family: 'Bitter', serif;
+  color: #297F7B;
+  font-size: 1.6rem;}
+.section h3 {
   margin: 0 1rem 1rem 1rem;
-  color: #1BBBB3;}
+  color: #1BBBB3;
+  font-family: 'Bitter', serif;
+  font-size: 1.4rem;}
+.section h4 {
+  margin: 0 1rem 1rem 1rem;
+  color: #1BBBB3;
+  font-family: 'Bitter', serif;
+  font-size: 1.2rem;}
+.section h5, .section h6  {
+  margin: 0 1rem 1rem 1rem;
+  color: #1BBBB3;
+  font-family: 'Bitter', serif;}
 
 
 /* Section */
 .section {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
   line-height: 23px;}
 .section img, .section iframe, .section p, .section ul {
   margin: 0 1rem 1rem 1rem;}
@@ -38,7 +55,7 @@ nav a:hover {
 
 /* Button */
 .section button {
-  margin: 1rem 10vmax 1rem 10vmax;}
+  margin: 1rem 10vw 1rem 10vw;}
 .button {
   display: inline-block;
   padding: 10px 10px;
@@ -55,8 +72,19 @@ nav a:hover {
   border-top-color: #5B327F;}
 .button:hover {
   background: #1BBBB3;
-  color: #ffffff;
-  }
+  color: #ffffff;}
+
+
+/* Calendar */
+.float {
+  float: left;
+  position: relative;
+  left: 50%;}
+.center {
+  float: left;
+  position: relative;
+  left:-50%;}
+
 
 /* Footer */
 footer ul {
@@ -68,6 +96,8 @@ footer .section:first-child {
 footer .section:last-child {
   background-color: ghostwhite;}
 footer .section ul, footer .section a, footer .section p {
-  color: #8E8E8E;}
+  color: #858585;}
+footer .section h4 {
+  color: #5B327F;}
 
 
